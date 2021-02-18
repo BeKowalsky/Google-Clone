@@ -111,14 +111,15 @@ input {
 }
 
 .div_main {
-    margin-top: 0px;
+    margin-top: -30px;
     margin-bottom: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 
 .div_main, a {
-    color: black;
+    color: rgb(80, 78, 78);
+    font-size: 14px;
 }
 
 .search_google {
@@ -136,7 +137,7 @@ input {
 footer {
     background-color: #F2F2F2;
     padding: 20px 0;
-    margin-top: 19.4%;
+    margin-top: 21.7%;
     margin-bottom: -10px;
     margin-right: -10px;
     margin-left: -10px;
