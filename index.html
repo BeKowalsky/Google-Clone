@@ -7,22 +7,38 @@
     <title>Google Clone</title>
     <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
 <body>
     <header>
-        <div class="div_header">
-            <a href="https://accounts.google.com">Gmail</a> &nbsp; 
-            <a href="https://www.google.com.br/imghp?hl=pt-BR&authuser=1&ogbl">Imagens</a> &nbsp;
-            <img src="assets/more-icon.svg" alt="Menu" class="img_menu">
+        <div>
             <a href="https://accounts.google.com/" class="link_login">Fazer login</a>
+        </div>
+        <div>
+            <img src="assets/more-icon.svg" alt="Menu" class="img_menu">
+        </div>
+        <div>
+            <a href="https://www.google.com.br/imghp?hl=pt-BR&authuser=1&ogbl">Imagens</a>
+        </div>
+        <div>
+            <a href="https://accounts.google.com">Gmail</a> &nbsp; 
         </div>
     </header>
     <main>
         <img src="assets/logo.svg" alt="Logo" class="img_logo">
         <input type="text">
+        <div class="div_pesquisa">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="div_keyboard">
+            <i class="fas fa-keyboard"></i>
+        </div>
+        <div class="div_voice">
+            <i class="fas fa-microphone"></i>
+        </div>
         <div class="div_main">
-            <a href="" class="search_google" style="color: #555657;">Pesquisa Google</a> &nbsp; &nbsp; &nbsp;
-            <a href="https://www.google.com/doodles" class="sorte_google" style="color: #555657;">Estou com sorte</a>
+            <a href="" class="search_google">Pesquisa Google</a> &nbsp; &nbsp; &nbsp;
+            <a href="https://www.google.com/doodles" class="sorte_google">Estou com sorte</a>
         </div>
     </main>
     <footer>
@@ -31,13 +47,17 @@
     </span>
     <hr>
      <div style="display: flex; justify-content: space-between;" class="div_foot">
-         <a href="https://about.google/" style="color: #767676;">Sobre</a>
-         <a href="https://ads.google.com/" style="color: #767676;">Publicidade</a>
-         <a href="https://smallbusiness.withgoogle.com/" style="color: #767676;">Negócios</a>
-         <a href="https://www.google.com/search/howsearchworks/?fg=1" style="color: #767676;">Como funciona a Pesquisa</a>
-         <a href="https://policies.google.com/privacy" style="color: #767676;">Privacidade</a>
-         <a href="https://policies.google.com/terms" style="color: #767676;">Termos</a>
-         <a href="" style="color: #767676;">configurações</a>
+        <div id="left">
+            <a href="https://about.google/">Sobre</a> &nbsp;
+            <a href="https://ads.google.com/">Publicidade</a> &nbsp;
+            <a href="https://smallbusiness.withgoogle.com/">Negócios</a> &nbsp;
+            <a href="https://www.google.com/search/howsearchworks/?fg=1">Como funciona a Pesquisa</a>
+        </div>
+        <div id="right">
+            <a href="https://policies.google.com/privacy">Privacidade</a> &nbsp;
+            <a href="https://policies.google.com/terms">Termos</a> &nbsp;
+            <a href="">configurações</a>
+        </div>
      </div>
     </footer>
 </body>
