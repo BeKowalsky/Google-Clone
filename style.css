@@ -71,7 +71,7 @@ main {
 }
 
 input {
-    margin-top: 20px;
+    margin-top: 15px;
     width: 550px;
     padding: 12px 12px 12px 20px;
     font-size: 16px;
@@ -82,6 +82,10 @@ input {
     border: 1px solid #dadce0;
     outline: 0;
 }
+
+input:hover {
+    box-shadow: 1px 1px 5px rgb(163, 163, 163);
+} 
 
 .div_pesquisa {
     padding-right: 537px;
@@ -98,7 +102,6 @@ input {
     bottom: 57px;
     color: #7f8183;
     font-size: 16px;
-    text-decoration: none;
 }
 
 .div_voice {
@@ -107,7 +110,6 @@ input {
     bottom: 77px;
     color: #7f8183;
     font-size: 18px;
-    text-decoration: none;
 }
 
 .div_main {
@@ -137,7 +139,7 @@ input {
 footer {
     background-color: #F2F2F2;
     padding: 20px 0;
-    margin-top: 21.5%;
+    margin-top: 21.8%;
     margin-bottom: 0px;
     margin-right: 0px;
     margin-left: 0px;
