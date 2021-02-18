@@ -137,10 +137,10 @@ input {
 footer {
     background-color: #F2F2F2;
     padding: 20px 0;
-    margin-top: 21.7%;
-    margin-bottom: -10px;
-    margin-right: -10px;
-    margin-left: -10px;
+    margin-top: 21.5%;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     color: #767676;
@@ -156,5 +156,5 @@ hr {
 }
 
 .div_foot, footer span {
-    padding: 0px 50px 0px 50px;
+    padding: 5px 50px 0px 50px;
 }
